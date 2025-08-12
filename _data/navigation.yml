@@ -10,10 +10,6 @@
     href: /occurrence/search
   - text: Datasets
     href: /dataset/search
-  - text: Collections
-    href: /collection/search
-  - text: Literature
-    href: /literature/search
 - text: Example pages
   menu: # Dropdown menu (one level deep only)
   - text: Simple

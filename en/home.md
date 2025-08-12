@@ -1,7 +1,7 @@
 ---
 lang-ref: home
 layout: home
-title: Template_site
+title: camtra-trap
 description: Lorem markdownum spatium limes indefessus neque *at* orat aestuat
 background: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
 imageLicense: |
