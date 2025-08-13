@@ -1,7 +1,6 @@
 /*
-This is the fil in which you configure the data widgets. Feel free to experiment with the configuration options. 
-But it is also completely okay to write and issue and ask for help to configure the widgets.
-You probably want to check out the documentation at https://hp-theme.gbif-staging.org/documentation-intro
+This is the file in which you configure the data widgets.
+See: https://hp-theme.gbif-staging.org/data-exploration-config
 */
 var siteConfig = {
   "version": 3,
@@ -21,7 +20,6 @@ var siteConfig = {
   ],
   "disableInlineTableFilterButtons": false,
   "availableCatalogues": [
-    // TODO: you should remove types you do not want to use
     "OCCURRENCE",
     "DATASET"
   ],
@@ -228,14 +226,14 @@ var siteConfig = {
       "table",
       "gallery",
       "map",
-      "clusters",
+      // "clusters",
       "dashboard",
       "download"
     ],
     "mapSettings": {
-      "lat": 52,
-      "lng": 12,
-      "zoom": 4.911544076366507
+      "lat": 30,
+      "lng": 0,
+      "zoom": 2
     }
   },
   "datasetSearch": {
