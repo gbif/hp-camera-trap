@@ -60,14 +60,6 @@ var siteConfig = {
     }
   ],
   "messages": {},
-  "datasetSearch": {
-    scope: {
-      endpointType: ["CAMTRAP_DP"]
-    },
-    highlightedFilters: ["q", "publishingCountry", "publishingOrg"],
-    excludedFilters: ["type"]
-    // More filters: "dwcaExtension", "hostingOrg", "license", "networkKey", "projectId"
-  },
   "occurrenceSearch": {
     "scope": {
       "type": "equals",
@@ -245,6 +237,14 @@ var siteConfig = {
       "lng": 12,
       "zoom": 4.911544076366507
     }
+  },
+  "datasetSearch": {
+    scope: {
+      endpointType: ["CAMTRAP_DP"]
+    },
+    highlightedFilters: ["q", "publishingCountry", "publishingOrg"],
+    excludedFilters: ["type"]
+    // More filters: "dwcaExtension", "hostingOrg", "license", "networkKey", "projectId"
   },
   "publisherSearch": {},
 }

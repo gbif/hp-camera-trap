@@ -3,11 +3,11 @@
 - text: About
   href: /about
 - text: Data
-  menu: 
-  - text: Datasets
-    href: /dataset/search
+  menu:
   - text: Occurrences
     href: /occurrence/search
+  - text: Datasets
+    href: /dataset/search
 - text: Development
   menu:
   - text: Hosted portal
