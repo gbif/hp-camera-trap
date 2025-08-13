@@ -190,16 +190,45 @@ var siteConfig = {
       // "q"
     ],
     "availableTableColumns": [
-      "commonName", // TODO: does not show
-      "features",
+      "scientificName",
+      "commonName",
+      "media",
       "country",
-      "eventDate", // TODO: does not show
-      "dataset", // TODO: does not show
-      "lifeStage", // TODO: does not show
-      "sex", // TODO: does not show
-      "media", // TODO: does not show
-      "collectionCode", // TODO: does not show
-      "identifiedBy"
+      "coordinates",
+      "locality",
+      "eventDate",
+      "year",
+      "individualCount",
+      "lifeStage",
+      "sex",
+      "identifiedBy",
+      "datasetKey",
+      "publishingOrg",
+      "collectionCode"
+      // "basisOfRecord",
+      // "catalogNumber",
+      // "collectionKey",
+      // "establishmentMeans",
+      // "features",
+      // "fieldNumber",
+      // "higherGeography",
+      // "institutionCode",
+      // "institutionKey",
+      // "iucnRedListCategory",
+      // "preparations",
+      // "recordedBy",
+      // "recordNumber",
+      // "specimenTriplet",
+      // "stateProvince",
+      // "typeStatus",
+    ],
+    "defaultEnabledTableColumns": [
+      "scientificName",
+      "commonName",
+      "media",
+      "country",
+      "eventDate",
+      "collectionCode"
     ],
     "tabs": [
       "table",
