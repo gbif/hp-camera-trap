@@ -67,16 +67,15 @@ var siteConfig = {
     },
     "highlightedFilters": [
       "taxonKey",
-      "verbatimScientificName",
+      "mediaType",
       "country",
-      "geometry",
       "eventDate",
       "lifeStage",
       "sex",
       "identifiedBy",
-      "mediaType",
       "datasetKey",
-      "publishingOrg"
+      "publishingOrg",
+      "collectionCode"
     ],
     "excludedFilters": [
       // RECORD
@@ -221,6 +220,7 @@ var siteConfig = {
       "media",
       "country",
       "eventDate",
+      "datasetKey",
       "collectionCode"
     ],
     "tabs": [
