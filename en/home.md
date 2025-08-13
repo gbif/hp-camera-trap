@@ -1,6 +1,7 @@
 ---
-lang-ref: home
 layout: home
+lang-ref: home
+permalink: /
 title: Camera Trap Data Portal
 description: Discover camera trap datasets.
 background: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
@@ -23,7 +24,6 @@ composition:
     data: examples.herbariumImageExample
   - type: features
     data: examples.couldBeAnyName
-permalink: /
 ---
 
 Edit `/home.md` to change the text.

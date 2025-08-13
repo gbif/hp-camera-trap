@@ -1,6 +1,6 @@
 ---
-permalink: occurrence/search
-lang-ref: occurrence/search
-title: Occurrence search
 layout: occurrence
+title: Occurrence search
+lang-ref: occurrence/search
+permalink: occurrence/search
 ---
