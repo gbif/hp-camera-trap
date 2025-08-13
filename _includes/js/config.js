@@ -76,14 +76,16 @@ var siteConfig = {
     },
     "highlightedFilters": [
       "taxonKey",
+      "verbatimScientificName",
       "country",
       "geometry",
       "eventDate",
-      "datasetKey",
       "lifeStage",
       "sex",
       "identifiedBy",
-      "mediaType"
+      "mediaType",
+      "datasetKey",
+      "publishingOrg"
     ],
     "excludedFilters": [
       // RECORD
