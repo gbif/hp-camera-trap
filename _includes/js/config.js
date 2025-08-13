@@ -132,7 +132,7 @@ var siteConfig = {
       // Other
       "isSequenced"
     ],
-    "defaultEnabledTableColumns": [
+    "availableTableColumns": [
       "commonName", // TODO: does not show
       "features",
       "country",
