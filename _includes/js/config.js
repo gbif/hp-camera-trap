@@ -86,51 +86,108 @@ var siteConfig = {
       "mediaType"
     ],
     "excludedFilters": [
-      // Record
+      // RECORD
       "basisOfRecord", // MachineObservation for all
       "collectionKey",
+      // "collectionCode",
+      // "datasetId",
+      // "datasetName",
       "institutionKey",
       "institutionCode",
-      // Occurrence
+      // "license",
+      
+      // OCCURRENCE
       "catalogNumber",
       "degreeOfEstablishment",
       "establishmentMeans",
-      // "organismQuantity" // Why are there no data?
+      // "lifeStage",
+      // "mediaType",
+      // "occurrenceId",
+      // "occurrenceStatus",
+      // "organismQuantity", TODO: Why are there no data?
       "organismQuantityType",
       "pathway",
       "recordNumber",
       "recordedBy",
-      "recordedByID",
+      "recordedById",
       "relativeOrganismQuantity",
-      // Organism
+      // "sex",
+
+      // ORGANISM
+      // "organismID",
       "previousIdentifications",
-      // Material Entity
-      "associatedSequences",
+
+      // MATERIAL ENTITY
+      "associatedSequences", // TODO: ?
       "preparations",
-      // Event
+      
+      // EVENT
+      // "endDayOfYear",
+      // "eventId",
+      // "eventDate",
       "fieldNumber",
+      // "month",
       "sampleSizeUnit",
       "sampleSizeValue",
-      // Location
+      // "samplingProtocol",
+      // "startDayOfYear",
+      "year",
+
+      // LOCATION
+      // "gadmGid",
+      // "continent",
+      // "coordinateUncertaintyInMeters",
+      // "country",
+      // "depth",
+      // "distanceFromCentroidInMeters",
+      // "elevation",
       "georeferencedBy",
+      // "gbifRegion",
       "higherGeography",
       "island",
       "islandGroup",
+      // "locality",
+      // "location",
+      // "publishedByGbifRegion",
       "stateProvince",
       "waterBody",
-      // Geological Context
+
+      // GEOLOGICAL CONTEXT
       "biostratigraphy",
       "geologicalTime",
       "lithostratigraphy",
-      // Identification
-      "identifiedByID",
+
+      // IDENTIFICATION
+      // "identifiedBy",
+      "identifiedById",
       "typeStatus",
-      "verbatimScientificName",
-      // Taxon
+      // "verbatimScientificName",
+      
+      // TAXON
+      // "taxonKey",
       "taxonId",
-      // Provenance
-      // Other
+      
+      // PROVENANCE
+      // "datasetKey",
+      // "hostingOrganizationKey",
+      // "networkKey",
+      // "programme",
+      // "projectId",
+      // "publishingOrg",
+      // "publishingCountry",
+      // "protocol",
+      // "repatriated",
+
+      // OTHER
+      // "dwcaExtension",
+      // "gbifId",
+      // "isInCluster",
+      "iucnRedListCategory",
       "isSequenced"
+      // "issue",
+      // "lastInterpreted",
+      // "taxonomicIssue",
+      // "q"
     ],
     "availableTableColumns": [
       "commonName", // TODO: does not show
