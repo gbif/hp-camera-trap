@@ -39,6 +39,7 @@ var siteConfig = {
       "options": {
         "MERCATOR": [
           "BRIGHT",
+          "DARK",
           "NATURAL"
         ]
       }
