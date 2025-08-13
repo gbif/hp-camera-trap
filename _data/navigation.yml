@@ -2,12 +2,10 @@
 
 - text: About
   href: /about
-- text: Data
-  menu:
-  - text: Occurrences
-    href: /occurrence/search
-  - text: Datasets
-    href: /dataset/search
+- text: Occurrences
+  href: /occurrence/search
+- text: Datasets
+  href: /dataset/search
 - text: Development
   menu:
   - text: Hosted portal
