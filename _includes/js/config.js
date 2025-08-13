@@ -133,13 +133,15 @@ var siteConfig = {
       "isSequenced"
     ],
     "defaultEnabledTableColumns": [
+      "commonName", // TODO: does not show
       "features",
-      "institutionKey",
-      "collectionKey",
-      "catalogNumber",
       "country",
-      "year",
-      "recordedBy",
+      "eventDate", // TODO: does not show
+      "dataset", // TODO: does not show
+      "lifeStage", // TODO: does not show
+      "sex", // TODO: does not show
+      "media", // TODO: does not show
+      "collectionCode", // TODO: does not show
       "identifiedBy"
     ],
     "tabs": [
