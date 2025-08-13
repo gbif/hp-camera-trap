@@ -61,13 +61,12 @@ var siteConfig = {
   ],
   "messages": {},
   "datasetSearch": {
-    excludedFilters: ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
-    highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
     scope: {
-      // TODO: you should add a scope here if you need search to be limited to a subset
-      // search filters have the format {field: [values]}
-      endpointType: ['CAMTRAP_DP']
+      endpointType: ["CAMTRAP_DP"]
     },
+    highlightedFilters: ["q", "publishingCountry", "publishingOrg"],
+    excludedFilters: ["type"]
+    // More filters: "dwcaExtension", "hostingOrg", "license", "networkKey", "projectId"
   },
   "occurrenceSearch": {
     "scope": {
@@ -77,21 +76,61 @@ var siteConfig = {
     },
     "highlightedFilters": [
       "taxonKey",
-      "verbatimScientificName",
-      "institutionKey",
-      "collectionKey",
-      "catalogNumber",
-      "recordedBy",
-      "identifiedBy"
+      "country",
+      "geometry",
+      "eventDate",
+      "datasetKey",
+      "lifeStage",
+      "sex",
+      "identifiedBy",
+      "mediaType"
     ],
     "excludedFilters": [
-      "occurrenceStatus",
-      "networkKey",
-      "hostingOrganizationKey",
-      "protocol",
-      "publishingCountry",
+      // Record
+      "basisOfRecord", // MachineObservation for all
+      "collectionKey",
+      "institutionKey",
       "institutionCode",
-      "collectionCode"
+      // Occurrence
+      "catalogNumber",
+      "degreeOfEstablishment",
+      "establishmentMeans",
+      // "organismQuantity" // Why are there no data?
+      "organismQuantityType",
+      "pathway",
+      "recordNumber",
+      "recordedBy",
+      "recordedByID",
+      "relativeOrganismQuantity",
+      // Organism
+      "previousIdentifications",
+      // Material Entity
+      "associatedSequences",
+      "preparations",
+      // Event
+      "fieldNumber",
+      "sampleSizeUnit",
+      "sampleSizeValue",
+      // Location
+      "georeferencedBy",
+      "higherGeography",
+      "island",
+      "islandGroup",
+      "stateProvince",
+      "waterBody",
+      // Geological Context
+      "biostratigraphy",
+      "geologicalTime",
+      "lithostratigraphy",
+      // Identification
+      "identifiedByID",
+      "typeStatus",
+      "verbatimScientificName",
+      // Taxon
+      "taxonId",
+      // Provenance
+      // Other
+      "isSequenced"
     ],
     "defaultEnabledTableColumns": [
       "features",
