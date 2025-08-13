@@ -105,4 +105,4 @@ defaults:
       path: "_posts"
     values:
       layout: "post"
-      permalink: "/post/:year/:slug/"
+      permalink: "/news/:year/:slug/"
