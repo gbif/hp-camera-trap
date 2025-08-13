@@ -71,6 +71,15 @@ var siteConfig = {
     }
   ],
   "messages": {},
+  "datasetSearch": {
+    excludedFilters: ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
+    highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
+    scope: {
+      // TODO: you should add a scope here if you need search to be limited to a subset
+      // search filters have the format {field: [values]}
+      endpointType: ['CAMTRAP_DP']
+    },
+  },
   "occurrenceSearch": {
     "scope": {
       "type": "equals",
@@ -118,15 +127,6 @@ var siteConfig = {
       "lng": 12,
       "zoom": 4.911544076366507
     }
-  },
-  "datasetSearch": {
-    excludedFilters: ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
-    highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
-    scope: {
-      // TODO: you should add a scope here if you need search to be limited to a subset
-      // search filters have the format {field: [values]}
-      endpointType: ['CAMTRAP_DP']
-    },
   },
   "publisherSearch": {},
 }

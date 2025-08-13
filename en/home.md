@@ -8,11 +8,11 @@ imageLicense: |
   [Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)
 height: 90vh
 cta:
-  - text: Occurrences
-    href: /occurrence/search
-    isPrimary: true
   - text: Datasets
     href: /dataset/search
+    isPrimary: true
+  - text: Occurrences
+    href: /occurrence/search
   - text: About
     href: /about
 composition:
