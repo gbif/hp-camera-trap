@@ -1,27 +1,6 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-# You should also look at https://hp-theme.gbif-staging.org/documentation-intro for options
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Camera Trap Data Portal # the title of your site should go here
-email: your-email@example.com
-description: >- # this means to ignore newlines (until baseurl:)
+# SITE SETTINGS
+title: Camera Trap Data Portal
+description: >-
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
@@ -29,25 +8,17 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://camera-trap.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SOCIAL PROFILES that will show in the footer
-email: info@gbif.org                                      # Social icon in footer
-twitter_username: yourname # if you have an account you want to link to. Else comment this line out
-github_username:  yourname # if you have an account you want to link to. Else comment this line out
-bluesky_username: yourname.org                            # Social icon in footer
-youtube_username: yourname                              # Social icon in footer
-facebook_username: yourname                             # Social icon in footer
-flickr_username: yourname                               # Social icon in footer
-instagram_username: yourname                              # Social icon in footer
-mastodon_url: https://something.goes/@here                # Social icon in footer
-linkedin_url: https://www.linkedin.com/company/yourname # Social icon in footer
+email: info@gbif.org
+github_username: camera-traps
 
-# Build settings
+# BUILD SETTINGS
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-
 remote_theme: gbif/jekyll-hp-base-theme
 
+# THEME SETTINGS
 algae:
   rootLang: en
   # latestPostLimit: 2
@@ -68,15 +39,9 @@ algae:
 
 useSharedLibrary: true # Use the new component library
 updateTranslationMenuOnWidgetEvents: true # Notice that this feature requires urls for widgets to be the same across languages (except for a language prefix)
+permalink: pretty # Will strip extensions like .html from urls
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+# EXCLUDE FILES
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -93,8 +58,7 @@ exclude:
   - .README.md
   - serve.json
 
-permalink: pretty # will strip extensions like .html from urls
-
+# FRONTMATTER DEFAULTS
 defaults:
   - scope:
       path: "" # All files in the project
