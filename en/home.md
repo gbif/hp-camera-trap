@@ -2,7 +2,7 @@
 layout: home
 lang-ref: home
 permalink: /
-title: Camera Trap Data Portal
+title: Wild Album
 description: Discover camera trap data for your research.
 background: /assets/images/brown-bear-slu-BFR05.jpg
 imageLicense: |
