@@ -34,7 +34,7 @@ This portal covers datasets that meet both these criteria:
 - Occurrences: <https://api.gbif.org/v1/occurrence/search?protocol=CAMTRAP_DP>
 - Datasets: <https://api.gbif.org/v1/dataset/search?endpointType=CAMTRAP_DP>
 
-## Contact
+## Maintainers
 
 ...
 

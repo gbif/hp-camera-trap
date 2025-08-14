@@ -26,8 +26,8 @@ algae:
   style:
     # square: false               # Should corners be square or rounded
     colors:
-      primary: "#fa5e97"          # Primary color of your brand. Use HEX code. Used for buttons and links
-      # links: "#fa5e97"          # What color should links have. Use a HEX code. DEfault is primary color. 
+      primary: "#0587be"          # Primary color. WILDLABS blue
+      links: "#ec7823"            # Link color (defaults to primary). WILDLABS orange
     coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
   navbar:                         # RELATED TO NAVIGATION BAR
     # brandBackground: yellow     # Define a custom background for the logo/title in the top navigation bar
