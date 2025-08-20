@@ -1,7 +1,7 @@
 # SITE SETTINGS
 title: Wild Album
 description: >-
-  Discover camera trap data for your research.
+  Discover camera trap data for research and conservation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://camera-trap.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
 

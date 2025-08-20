@@ -3,7 +3,7 @@ layout: home
 lang-ref: home
 permalink: /
 title: Wild Album
-description: Discover camera trap data for your research.
+description: Discover camera trap data for research and conservation.
 background: /assets/images/brown-bear-slu-BFR05.jpg
 imageLicense: |
   Two brown bears captured by a camera trap in Sweden. Image by SLU.
@@ -17,7 +17,7 @@ cta:
   - text: About
     href: /about
 composition:
-  - type: heroImage # the block type
+  - type: heroImage
   - type: stats
     data: examples.stats
   - type: split
