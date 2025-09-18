@@ -24,7 +24,7 @@ var siteConfig = {
     "DATASET"
   ],
   "dataHeader": {
-    "enableApiPopup": false,
+    "enableApiPopup": true,
     "enableInfoPopup": false
   },
   "theme": {
