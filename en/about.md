@@ -3,10 +3,9 @@ layout: heroImage
 lang-ref: about
 permalink: about
 title: About
-background: /assets/images/placeholders/moss.jpg
-imageLicense: |
-  None for this image, but it would normally go here. Markdown is allowed.
-height: 70vh
+background: "{{ site.data.images.moose.src }}"
+imageLicense: "{{ site.data.images.moose.caption }}"
+height: 60vh
 toc: true
 ---
 
