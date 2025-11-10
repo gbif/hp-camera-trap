@@ -1,21 +1,8 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: About
-  href: /about
 - text: Occurrences
   href: /occurrence/search
 - text: Datasets
   href: /dataset/search
-- text: Development
-  menu:
-  - text: Hosted portal
-  - text: Documentation
-    href: https://hp-theme.gbif-staging.org/documentation-intro
-  - text: Other hosted portals
-    href: https://hp-theme.gbif.org/hosted-portal-list.html
-  - text: "---"
-  - "text": "Example pages"
-  - text: Simple page
-    href: /example-pages/simple
-  - text: Complex page
-    href: /example-pages/complex
+- text: About
+  href: /about
