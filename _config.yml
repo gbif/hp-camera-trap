@@ -1,30 +1,23 @@
 # SITE SETTINGS
 title: Wild Album
-description: >-
-  Discover camera trap data for research and conservation.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://camera-trap.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
+description: Discover camera trap data for research and conservation.
+url: "https://camera-trap.hp.gbif.org/"
+baseurl: "" # Start with slash if used
 
-# SOCIAL PROFILES that will show in the footer
+
+# SOCIAL PROFILES
 email: info@gbif.org
-github_username: camera-traps
-
-# BUILD SETTINGS
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
-remote_theme: gbif/jekyll-hp-base-theme
+github_username: gbif/hp-camera-trap
 
 # THEME SETTINGS
 algae:
   rootLang: en
-  # latestPostLimit: 2
-  # logo: /assets/images/fungi.svg  # Logo in navbar, will be displayed with 28px height
-  # logoAndTitle: false           # include the title next to the logo
-  archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
+  # logo: /assets/images/fungi.svg # Displayed with 28px height
+  # logoAndTitle: false
+  archive_permalink: /news/
+  latestPostLimit: 2
   style:
-    # square: false               # Should corners be square or rounded
+    square: false
     colors:
       primary: "#0587be"          # Primary color. WILDLABS blue
       links: "#ec7823"            # Link color (defaults to primary). WILDLABS orange
@@ -36,10 +29,15 @@ algae:
     # floating: true
 
 useSharedLibrary: true # Use the new component library
-updateTranslationMenuOnWidgetEvents: true # Notice that this feature requires urls for widgets to be the same across languages (except for a language prefix)
+updateTranslationMenuOnWidgetEvents: true
 permalink: pretty # Will strip extensions like .html from urls
 
-# EXCLUDE FILES
+# BUILD SETTINGS
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+remote_theme: gbif/jekyll-hp-base-theme
 exclude:
   - .sass-cache/
   - .jekyll-cache/
