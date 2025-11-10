@@ -38,4 +38,4 @@ This portal covers datasets that meet both these criteria:
 
 ...
 
-[Submit an issue](/https://github.com/gbif/hp-camera-trap/issues){: .button .is-primary}
+[Submit an issue](https://github.com/gbif/hp-camera-trap/issues){: .button .is-primary}
