@@ -26,8 +26,17 @@ $info: #5b985c; // WILDLABS green
   }
 
   .statistic {
-    a {
-      color: $link;
+    .feature-title {
+      font-size: 2.4rem;
+      font-weight: 900;
+      margin-bottom: 0.5rem;
+      a {
+        color: $link;
+      }
+    }
+    .feature-description {
+      font-size: 1.2rem;
+      font-weight: 600;
     }
   }
 }
