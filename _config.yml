@@ -7,7 +7,7 @@ baseurl: "" # Start with slash if used
 
 # SOCIAL PROFILES
 email: info@gbif.org
-github_username: gbif/hp-camera-trap
+github_username: camera-traps
 
 # THEME SETTINGS
 algae:
