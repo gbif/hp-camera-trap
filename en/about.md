@@ -1,11 +1,13 @@
 ---
 layout: heroImage
+klass: wildlabs
 lang-ref: about
 permalink: about
 title: About
 background: "{{ site.data.images.moose.src }}"
 imageLicense: "{{ site.data.images.moose.caption }}"
 height: 60vh
+parallax: true
 toc: true
 ---
 
@@ -30,8 +32,8 @@ This portal covers datasets that meet both these criteria:
 
 ### API access
 
-- Occurrences: <https://api.gbif.org/v1/occurrence/search?protocol=CAMTRAP_DP>
 - Datasets: <https://api.gbif.org/v1/dataset/search?endpointType=CAMTRAP_DP>
+- Occurrences: <https://api.gbif.org/v1/occurrence/search?protocol=CAMTRAP_DP>
 
 ## Maintainers
 

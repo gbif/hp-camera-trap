@@ -1,8 +1,8 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: Occurrences
-  href: /occurrence/search
 - text: Datasets
   href: /dataset/search
+- text: Occurrences
+  href: /occurrence/search
 - text: About
   href: /about
