@@ -8,6 +8,8 @@ $info: #5b985c; // WILDLABS green
 
 // Site-wide styling
 .floatingHero {
+  background-color: $primary;
+
   .feature-title:after {
     border-bottom: .4rem solid $primary;
     content: "";
@@ -21,10 +23,6 @@ $info: #5b985c; // WILDLABS green
 
 // Homepage
 .home {
-  .floatingHero {
-    background-color: $primary;
-  }
-
   .statistic {
     .feature-title {
       font-size: 2.4rem;
