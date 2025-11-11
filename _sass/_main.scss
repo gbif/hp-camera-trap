@@ -5,6 +5,7 @@ $info: #5b985c; // WILDLABS green
 @import "theme/_main";
 
 // You can add additional styling here
+
 // Site-wide styling
 .floatingHero {
   .feature-title:after {
@@ -18,3 +19,15 @@ $info: #5b985c; // WILDLABS green
   }
 }
 
+// Homepage
+.home {
+  .floatingHero {
+    background-color: $primary;
+  }
+
+  .statistic {
+    a {
+      color: $link;
+    }
+  }
+}
