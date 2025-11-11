@@ -4,8 +4,8 @@ klass: wildlabs
 lang-ref: about
 permalink: about
 title: About
-background: "{{ site.data.images.moose.src }}"
-imageLicense: "{{ site.data.images.moose.caption }}"
+background: "{{ site.data.images.fox.src }}"
+imageLicense: "{{ site.data.images.fox.caption }}"
 height: 60vh
 parallax: true
 toc: true
@@ -39,4 +39,4 @@ This portal covers datasets that meet both these criteria:
 
 ...
 
-[Submit an issue](https://github.com/gbif/hp-camera-trap/issues){: .button .is-primary}
+[Submit an issue](https://github.com/gbif/hp-camera-trap/issues){: .button .is-link}
