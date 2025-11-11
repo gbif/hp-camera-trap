@@ -14,8 +14,8 @@ users:
   title: Search for data
   description: >
     Wild Album helps you discover camera trap datasets published to [GBIF](https://www.gbif.org).
-    You can search metadata to find datasets relevant to you.
-    Or you can dive into the occurrence data these datasets collectively contain.
+    Search metadata to find datasets relevant to you.
+    Or dive into the occurrence data these datasets collectively contain.
   cta:
   - text: Explore metadata
     href: /dataset/search
