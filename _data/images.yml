@@ -10,3 +10,9 @@ bears:
 moose:
   src: /assets/images/moose-slu-R3.jpg
   caption: Two moose calves (and mother partially visible on the left) captured by a camera trap in Sweden. Image by SLU.
+fox:
+  src: /assets/images/fox-inbo.jpg
+  caption: Red fox captured by a camera trap in Belgium. Image by INBO.
+roe-deer:
+  src: /assets/images/roe-deer-inbo.jpg
+  caption: Roe deer captured by a camera trap in Belgium. Image by INBO.
