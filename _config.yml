@@ -20,12 +20,6 @@ algae:
     square: false
     # colors: see _main.scss
     coloredHeadlineLinks: false
-  navbar:
-    brandBackground: "black"
-    color: "black"
-    hasWhiteText: true
-    floating: false
-
 useSharedLibrary: true # Use the new component library
 updateTranslationMenuOnWidgetEvents: true
 permalink: pretty # Will strip extensions like .html from urls
