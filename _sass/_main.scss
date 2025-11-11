@@ -21,6 +21,23 @@ $info: #5b985c; // WILDLABS green
   }
 }
 
+.footer {
+  .footer-column {
+    border-top: 0.4rem solid lightgrey;
+    padding-top: 1rem;
+
+    &:nth-child(1) {
+      border-top-color: $link;
+    }
+    &:nth-child(2) {
+      border-top-color: $primary;
+    }
+    &:nth-child(3) {
+      border-top-color: $info;
+    }
+  }
+}
+
 // Homepage
 .home {
   .statistic {
