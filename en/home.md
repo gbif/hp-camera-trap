@@ -1,14 +1,15 @@
 ---
 layout: home
+klass: home
 lang-ref: home
 permalink: /
 title: Wild Album
 description: Discover camera trap data for research and conservation.
-background: "{{ site.data.images.bears.src }}"
-imageLicense: "{{ site.data.images.bears.caption }}"
+videos: ["/assets/images/wild-boar-inbo.mp4"]
+imageLicense: "Wild boars (adults and juveniles) captured by a camera trap in Belgium. Video by INBO."
 height: 60vh
 composition:
-  - type: heroImage
+  - type: heroVideo
   - type: stats
     data: home.stats
 ---
