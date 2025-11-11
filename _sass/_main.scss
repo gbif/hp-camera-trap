@@ -7,6 +7,10 @@ $info: #5b985c; // WILDLABS green
 // You can add additional styling here
 
 // Site-wide styling
+.navbar {
+  border-bottom: .4rem solid $link;
+}
+
 .floatingHero {
   background-color: $primary;
 
