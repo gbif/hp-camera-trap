@@ -3,8 +3,16 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - description: >
-      This website is maintained by the camera trap community.
+  - name: About
+    description: >
+      This website is maintained by WILDLABS and volunteers
+      from the camera-trapping community.
+      [About this site](/about).
+  - name: Code
+    description: >
+      This website is open source.
+      Have a suggestion or notice a typo?
+      Submit an issue on [GitHub](https://github.com/gbif/hp-camera-trap/).
   - name: Contact
     connectIcons: true
 
