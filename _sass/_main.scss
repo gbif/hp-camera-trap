@@ -5,4 +5,16 @@ $info: #5b985c; // WILDLABS green
 @import "theme/_main";
 
 // You can add additional styling here
-@import "_example"; // either as inline css or as a separate file as in this case
+// Site-wide styling
+.floatingHero {
+  .feature-title:after {
+    border-bottom: .4rem solid $primary;
+    content: "";
+    height: 100%;
+    left: calc(50% - 4.25rem);
+    position: absolute;
+    top: 1rem;
+    width: 8.5rem;
+  }
+}
+
