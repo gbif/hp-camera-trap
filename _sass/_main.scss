@@ -21,6 +21,12 @@ $info: #5b985c; // WILDLABS green
   }
 }
 
+.toc {
+  a.active {
+    border-left-color: $primary;
+  }
+}
+
 .footer {
   .footer-column {
     border-top: 0.4rem solid lightgrey;
