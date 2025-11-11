@@ -1,0 +1,12 @@
+stats:
+  features:
+    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?endpointType=CAMTRAP_DP"></span>
+      description: Datasets
+      href: /dataset/search
+    - title: <span data-ajax-path="data.occurrenceSearch.cardinality.speciesKey" data-ajax-url="https://graphql.gbif.org/graphql?query=query{occurrenceSearch(predicate:{key:%22protocol%22,type:equals,value:%22CAMTRAP_DP%22}){_predicate%20cardinality{speciesKey}}}"></span>
+      description: Species
+      href: /occurrence/search?view=dashboard
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?protocol=CAMTRAP_DP&limit=0"></span>
+      description: Occurrences
+      href: /occurrence/search
+

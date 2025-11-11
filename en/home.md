@@ -7,32 +7,8 @@ description: Discover camera trap data for research and conservation.
 background: "{{ site.data.images.bears.src }}"
 imageLicense: "{{ site.data.images.bears.caption }}"
 height: 60vh
-cta:
-  - text: Occurrences
-    href: /occurrence/search
-    isPrimary: true
-  - text: Datasets
-    href: /dataset/search
-  - text: About
-    href: /about
 composition:
   - type: heroImage
   - type: stats
-    data: examples.stats
-  - type: split
-    data: examples.herbariumImageExample
-  - type: features
-    data: examples.couldBeAnyName
+    data: home.stats
 ---
-
-Edit `/home.md` to change the text.
-
-Lorem markdownum spatium limes indefessus neque *at* orat aestuat, quicquam ne
-flavusque omnibus, virginis socerque sparsos vidimus eundem. Sustinet **ramo
-pontum ut** avus quamquam de trabes vestemque cruorem tremor.
-
-Viscera mercibus isdem hebetarat undas! Iubet ora ire unum telis adicit, si
-Telephus *valent*, instructo refers. Ille **est resque**, sic ruris erit ante
-profana detegeret. Et cogor tractus arboribus prensurum praesens memorantur
-neque inplet iussus temeraria merui **fas ecce** aethera dixit fieretque [plura
-tollebat altius](http://virgineusque.net/est.html).
