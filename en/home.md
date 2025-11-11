@@ -12,4 +12,8 @@ composition:
   - type: heroVideo
   - type: stats
     data: home.stats
+  - type: split
+    data: home.users
+  - type: split
+    data: home.publishers
 ---

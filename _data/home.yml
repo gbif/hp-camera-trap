@@ -10,3 +10,31 @@ stats:
       description: Occurrences
       href: /occurrence/search
 
+users:
+  title: Search for data
+  description: >
+    Wild Album helps you discover camera trap datasets published to [GBIF](https://www.gbif.org).
+    You can search metadata to find datasets relevant to you.
+    Or you can dive into the occurrence data these datasets collectively contain.
+  cta:
+  - text: Explore metadata
+    href: /dataset/search
+  - text: Explore occurrences
+    href: /occurrence/search
+  background: "{{ site.data.images.bears.src }}"
+  imageLicense: "{{ site.data.images.bears.caption }}"
+
+publishers:
+  title: Make your data discoverable
+  description: >
+    Want others to discover your camera-trapping research?
+    Publish your dataset in the [Camtrap DP](https://camtrap-dp.tdwg.org) standard to [GBIF](https://www.gbif.org)
+    and it will automatically appear on Wild Album.
+  cta:
+  - text: Read the publication guide
+    href: https://doi.org/10.35035/doc-0qzp-2x37
+  - text: Become a publisher
+    href: https://www.gbif.org/become-a-publisher
+  background: "{{ site.data.images.roe-deer.src }}"
+  imageLicense: "{{ site.data.images.roe-deer.caption }}"
+  reverse: true
