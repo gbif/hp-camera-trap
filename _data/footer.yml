@@ -11,7 +11,7 @@ columns:
   - name: Code
     description: >
       This website is open source.
-      Have a suggestion or notice a typo?
+      Have a suggestion or noticed a typo?
       Submit an issue on [GitHub](https://github.com/gbif/hp-camera-trap/).
   - name: Contact
     connectIcons: true
