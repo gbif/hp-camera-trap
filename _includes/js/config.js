@@ -241,9 +241,9 @@ var siteConfig = {
     scope: {
       endpointType: ["CAMTRAP_DP"]
     },
-    highlightedFilters: ["q", "publishingCountry", "publishingOrg"],
+    highlightedFilters: ["q", "publishingCountry", "publishingOrg", "projectId"],
     excludedFilters: ["type"]
-    // More filters: "dwcaExtension", "hostingOrg", "license", "networkKey", "projectId"
+    // More filters: "dwcaExtension", "hostingOrg", "license", "networkKey"
   },
   "publisherSearch": {},
 }
