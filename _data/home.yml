@@ -27,7 +27,7 @@ users:
 publishers:
   title: Make your data discoverable
   description: >
-    Want others to discover your camera-trapping research?
+    Want others to discover your camera trap data and use it for research and conservation?
     Publish your dataset in the [Camtrap DP](https://camtrap-dp.tdwg.org) standard to [GBIF](https://www.gbif.org)
     and it will automatically appear on Wild Album.
   cta:
