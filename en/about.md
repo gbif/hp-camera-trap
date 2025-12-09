@@ -37,6 +37,6 @@ The idea for this website was suggested by partners of the [BIG_PICTURE](https:/
 
 The best way to contribute to Wild Album is by publishing your camera trap data to GBIF. We hope to add more detailed instructions later, but see the [publication guide](https://doi.org/10.35035/doc-0qzp-2x37) to get started.
 
-Have a suggestion or noticed a typo or bug? Submit an issue on [GitHub](https://github.com/gbif/hp-camera-trap/issues).
+Have a suggestion or noticed a typo or bug? Submit an issue on [GitHub](https://github.com/gbif/hp-wild-album/issues).
 
 <!-- Want get in touch? [Contact us](info@gbif.org) -->
