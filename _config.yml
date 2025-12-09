@@ -1,7 +1,7 @@
 # SITE SETTINGS
 title: Wild Album
 description: Camera trap data portal
-url: "https://camera-trap.hp.gbif-staging.org/"
+url: "https://camera-trap.hp.gbif-staging.org"
 baseurl: "" # Start with slash if used
 
 
