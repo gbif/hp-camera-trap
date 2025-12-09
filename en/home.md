@@ -51,4 +51,11 @@ composition:
       background: "{{ site.data.images.roe-deer.src }}"
       imageLicense: "{{ site.data.images.roe-deer.caption }}"
       reverse: true
+  - type: floatingText
+    inlineData:
+      klass: hp
+      title: Interested in animal tracking data?
+      description: >
+        [Visit Wild Moves](https://animal-tracking.hp.gbif-staging.org){:.button}
+      hasWhiteText: true
 ---
